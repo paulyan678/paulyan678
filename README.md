@@ -1,90 +1,69 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:22C55E&height=180&section=header&text=Paul%20Yan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Tools%20%7C%20Machine%20Learning%20%7C%20Computer%20Vision&descAlignY=55" alt="Paul Yan profile banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:22C55E&height=180&section=header&text=Paul%20Yan&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Systems%20%7C%20Developer%20Tools%20%7C%20Applied%20ML&descAlignY=55" alt="Paul Yan — Full-Stack Systems, Developer Tools, and Applied ML" />
 </p>
 
-<div align="center">
+<h1 align="center">Software engineer who builds across the stack</h1>
 
-# Hi, I'm Paul.
+<p align="center">
+  I turn product ideas into tested, security-conscious software—from user interfaces and APIs to data, infrastructure, and applied machine learning.
+</p>
 
-I build practical developer tools, learning systems, computer vision projects, and small software products that turn fuzzy problems into usable systems.
+<p align="center">
+  Engineering Science · Machine Intelligence at the University of Toronto<br />
+  Toronto, Canada · Open to software engineering opportunities
+</p>
 
-[![GitHub followers](https://img.shields.io/github/followers/paulyan678?style=for-the-badge&logo=github&label=Followers)](https://github.com/paulyan678?tab=followers)
-[![Profile views](https://komarev.com/ghpvc/?username=paulyan678&style=for-the-badge&color=0e75b6)](https://github.com/paulyan678)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/paulyan678?tab=repositories&q=&type=&language=python)
-[![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://github.com/paulyan678?tab=repositories&q=&type=&language=javascript)
+<p align="center">
+  <a href="https://github.com/paulyan678/full-stack-course-projects">
+    <img src="https://img.shields.io/badge/Featured-Full--Stack%20Application%20Suite-0EA5E9?style=for-the-badge" alt="Featured: Full-Stack Application Suite" />
+  </a>
+  <a href="https://github.com/paulyan678?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-All%20Repositories-181717?style=for-the-badge&logo=github" alt="Explore all repositories" />
+  </a>
+</p>
 
-</div>
+## Featured engineering work
 
-## Recent Software Projects
+### [Full-Stack Application Suite](https://github.com/paulyan678/full-stack-course-projects)
 
-| Project | What it does | Stack |
+Four independently runnable applications, each with its own runtime, tests, documentation, environment template, and container workflow. The suite spans web, backend, cloud-ready adapters, and native Android development, with **84 automated tests** across the four projects.
+
+| Product | What I engineered | Quality and design signals |
 | --- | --- | --- |
-| [`repo-health-radar`](https://github.com/paulyan678/repo-health-radar) | Scans repositories for health signals, missing project basics, TODO density, large files, and secret-looking patterns. | Python, CLI, unit tests |
-| [`openapi-drift-guard`](https://github.com/paulyan678/openapi-drift-guard) | Catches OpenAPI contract drift such as duplicate operation IDs, missing path parameters, and weak schema definitions. | Node.js, API tooling, test runner |
-| [`incident-timeline-lab`](https://github.com/paulyan678/incident-timeline-lab) | Converts incident event JSON into Markdown and SVG timelines for postmortems and reliability reviews. | Python, SVG, reliability tooling |
-| [`focus-board-lite`](https://github.com/paulyan678/focus-board-lite) | A dependency-free browser task board with local persistence, drag-and-drop movement, and tested state logic. | HTML, CSS, JavaScript |
+| **[Agent AI](https://github.com/paulyan678/full-stack-course-projects/tree/main/agent-ai)** | A local-first PDF question-answering system using Node.js, Express, React, retrieval, page-aware sources, and optional MCP/OpenAI integrations. | 21 tests; bounded uploads; rate limiting; CORS controls; isolated, expiring document sessions; Dockerized Nginx + API. |
+| **[OnlineOrder](https://github.com/paulyan678/full-stack-course-projects/tree/main/onlineorder)** | A restaurant browsing, account, cart, and checkout product using Java, Spring Boot, PostgreSQL, React, and Ant Design. | 24 tests; server-side sessions; BCrypt; CSRF protection; per-customer carts; service and authenticated HTTP integration coverage. |
+| **[SocialAI](https://github.com/paulyan678/full-stack-course-projects/tree/main/socialai)** | An authenticated media application with a Go API, React client, AI image generation, search, uploads, and replaceable persistence/storage providers. | 26 tests; race-tested Go code; PBKDF2 and signed tokens; ownership checks; local/cloud adapter boundaries; verified backend and frontend builds. |
+| **[Spotify Local](https://github.com/paulyan678/full-stack-course-projects/tree/main/spotify)** | A native Android music experience backed by a Kotlin/Ktor API, with feed, playlists, favorites, and shared playback controls. | 13 tests; Compose + MVVM; Room; Hilt; Retrofit; Media3; byte-range audio; APK, lint, and fixture validation. |
 
-## What I Work On
+The repository also documents reproducible builds, dependency audits, credential-free local paths, security decisions, and the exact verification commands for every application.
 
-| Area | Focus | Repositories |
-| --- | --- | --- |
-| Developer tooling | CLI tools, repository quality, API contracts, automation | [`repo-health-radar`](https://github.com/paulyan678/repo-health-radar), [`openapi-drift-guard`](https://github.com/paulyan678/openapi-drift-guard) |
-| Reliability and product tools | Incident workflows, lightweight dashboards, practical UX | [`incident-timeline-lab`](https://github.com/paulyan678/incident-timeline-lab), [`focus-board-lite`](https://github.com/paulyan678/focus-board-lite) |
-| Computer vision | Feature detection, optical flow, geometry, image processing | [`canny_edge_detector`](https://github.com/paulyan678/canny_edge_detector), [`SIFI`](https://github.com/paulyan678/SIFI), [`RANSAC`](https://github.com/paulyan678/RANSAC), [`optical_flow`](https://github.com/paulyan678/optical_flow) |
-| Machine learning | Models from scratch, representation learning, medical imaging experiments | [`brats-rotation-moco`](https://github.com/paulyan678/brats-rotation-moco), [`brats-rotation-moco-new`](https://github.com/paulyan678/brats-rotation-moco-new), [`rotation-moco-3x3`](https://github.com/paulyan678/rotation-moco-3x3) |
-| Numerical methods and systems | ODEs, Newton methods, integration, C++, hardware practice | [`ode_numerical_methods`](https://github.com/paulyan678/ode_numerical_methods), [`newton_fractal`](https://github.com/paulyan678/newton_fractal), [`cpp_practice`](https://github.com/paulyan678/cpp_practice), [`system_verilog_practice`](https://github.com/paulyan678/system_verilog_practice) |
+## More projects
 
-## Featured Projects
+| Project | Engineering focus |
+| --- | --- |
+| **[Repo Health Radar](https://github.com/paulyan678/repo-health-radar)** | Zero-dependency Python CLI that audits repository basics, TODO density, large files, language mix, and secret-like patterns; emits Markdown or JSON and includes tests plus CI. |
+| **[OpenAPI Drift Guard](https://github.com/paulyan678/openapi-drift-guard)** | Dependency-free Node.js CLI that catches duplicate operation IDs, undeclared path parameters, missing responses, and weak schema definitions before API contracts reach clients. |
+| **[Incident Timeline Lab](https://github.com/paulyan678/incident-timeline-lab)** | Python reliability tool that converts incident JSON into review-ready Markdown and SVG timelines, with deterministic ordering, severity styling, and a focused test suite. |
+| **[Focus Board Lite](https://github.com/paulyan678/focus-board-lite)** | Framework-free browser task board with LocalStorage persistence, filtering, drag-and-drop, responsive UI, and unit-tested state logic. |
+| **[BraTS Rotation Robustness](https://github.com/paulyan678/brats-rotation-moco-new)** | PyTorch medical-imaging pipeline that trains rotation-specific MoCo encoders and UNets on a fixed split, then aggregates macro-Dice results across a 360-angle experiment grid. |
+| **[Smart Shovel](https://github.com/paulyan678/smart-shovel)** | Embedded C++ prototype using an Arduino Nano, GPS, weight sensing, and SD-card logging, paired with 3D-printed hardware designed in Fusion 360. |
 
-<p align="center">
-  <a href="https://github.com/paulyan678/repo-health-radar">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=paulyan678&repo=repo-health-radar&theme=tokyonight&hide_border=true" alt="repo-health-radar repository card" />
-  </a>
-  <a href="https://github.com/paulyan678/openapi-drift-guard">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=paulyan678&repo=openapi-drift-guard&theme=tokyonight&hide_border=true" alt="openapi-drift-guard repository card" />
-  </a>
-</p>
+## Engineering toolkit
 
-<p align="center">
-  <a href="https://github.com/paulyan678/incident-timeline-lab">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=paulyan678&repo=incident-timeline-lab&theme=tokyonight&hide_border=true" alt="incident-timeline-lab repository card" />
-  </a>
-  <a href="https://github.com/paulyan678/focus-board-lite">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=paulyan678&repo=focus-board-lite&theme=tokyonight&hide_border=true" alt="focus-board-lite repository card" />
-  </a>
-</p>
+| Area | Technologies and practices |
+| --- | --- |
+| **Languages** | Python, JavaScript, Java, Go, Kotlin, C++, SQL |
+| **Web and backend** | React, Vite, Node.js, Express, Spring Boot, Ktor, REST APIs, PostgreSQL, Nginx |
+| **Mobile and systems** | Android Compose, Room, Hilt, Retrofit, Media3, Arduino |
+| **ML and computer vision** | PyTorch, NumPy, self-supervised learning, medical image segmentation, feature detection, optical flow |
+| **Quality and delivery** | Unit and integration testing, JUnit, Vitest, Go race detector, Docker Compose, GitHub Actions, Gradle, pnpm, dependency auditing |
 
-## Tools I Reach For
+## How I work
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+- **Own the full path:** I connect product behavior to API contracts, data models, security boundaries, tests, and runbooks.
+- **Design for verification:** I favor modular interfaces, deterministic local fallbacks, focused test suites, and reproducible build commands.
+- **Make projects reviewable:** I document architecture, setup, tradeoffs, environment variables, limitations, and validation steps so another engineer can evaluate the work quickly.
 
-## GitHub Snapshot
+## Open to opportunities
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=paulyan678&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Paul's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paulyan678&layout=compact&theme=tokyonight&hide_border=true" alt="Paul's top languages" />
-</p>
-
-## Current Direction
-
-- Building useful developer tools with small, readable codebases and real tests.
-- Exploring computer vision and representation learning, especially for medical imaging.
-- Practicing the habit of turning experiments into documented, reusable projects.
-
-<p align="center">
-  <a href="https://github.com/paulyan678?tab=repositories">Browse my repositories</a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22C55E,100:0EA5E9&height=110&section=footer" alt="Footer wave" />
-</p>
+I am looking for software engineering opportunities where I can contribute across backend systems, product development, developer infrastructure, or applied ML. For the most complete view of my recent work, start with the **[Full-Stack Application Suite](https://github.com/paulyan678/full-stack-course-projects)** and its per-project run and test guides.
