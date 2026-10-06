@@ -30,9 +30,9 @@ The repository distinguishes the published study from the current reconstruction
 
 **Python · PyTorch · Bayesian inference · Reinforcement learning**
 
-Independent follow-up work in 2026, after my 2024 research assistantship at UT Austin with Prof. Christian Claudel. The simulation combines Gaussian belief updates with masked Rainbow-DQfD for informative path planning.
+Work completed during my Jan-Sep 2024 research assistantship at UT Austin with Prof. Christian Claudel, rerun in July 2026 for public GitHub publication. The simulation combines Gaussian belief updates with masked Rainbow-DQfD for informative path planning.
 
-Across 1,024 paired held-out procedural profiles, three validation-selected agents reached **1.997x random sampling's information gain** (95% CI: 1.974-2.022), or **97.3% of a greedy planner**. These are simulated results. The committed episode rows reproduce the summary; original trained weights are not included, so that arithmetic check is distinct from rerunning the learned agents.
+The archived July 2026 rerun evaluates 1,024 paired held-out procedural profiles: three validation-selected agents reached **1.997x random sampling's information gain** (95% CI: 1.974-2.022), or **97.3% of a greedy planner**. These are simulated results. The committed episode rows reproduce the summary; original trained weights are not included, so that arithmetic check is distinct from rerunning the learned agents.
 
 [Result provenance and raw data](https://github.com/paulyan678/beach_sampling/tree/main/results/research) · [Validation runs](https://github.com/paulyan678/beach_sampling/actions)
 
